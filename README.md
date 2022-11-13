@@ -35,7 +35,7 @@ HAVING group_filter;
       Variable NOT BETWEEN lower AND upper
   GLOB is like LIKE, but more regex-ish
 ## JOINs
-  See https://www.w3schools.com/sql/sql_join.asp, esp. section headed
+  See https://www.sqlitetutorial.net/sqlite-join/ and https://www.w3schools.com/sql/sql_join.asp, esp. section headed
    "Different Types of SQL JOINs"   Sqlite3 has  Inner, Left, Cross, 
      and Self- Joins 
    To help with Left and Right, use aliases l and r:
@@ -46,3 +46,4 @@ HAVING group_filter;
       albums l
         INNER JOIN artists r 
         ON r.ArtistId = l.ArtistId;
+YOU ARE HERE: https://www.sqlitetutorial.net/sqlite-group-by/
